@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Trivia Game</title>
+    <!-- <link rel="stylesheet" href="assets/css/reset.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">  
+    <link rel="stylesheet" href="assets/css/style.css">
+    <link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+        <h1 id="title">Western Trivia</h1>
+        <div class="container" id="hidden">
+            <h3 class= "timer">Time Remaining: <span id="timer">60</span> seconds</h3>
+            <div class="col-12">
+                <h4 class="q1">Which western movie starred Clint Eastwood and was released in 1992?</h4>
+                <label>
+                    <input class="a1" type="radio" name="a1" value="inc"/> A Fistful of Dollars
+                    <input class="a1" type="radio" name="a1" value="inc"/> The Good, The Bad, and the Ugly
+                    <input class="a1" type="radio" name="a1" value="inc"/> High Plains Drifter
+                    <input class="a1" type="radio" name="a1" value="cor"/> Unforgiven
+                    <input class="a1" type="radio" name="a1" value="inc"/> Joe Kidd
+                </label>
+            </div>
+            <div class="col-12">
+                <h4 class="q2">Out of these options. What is considered to be the best Western video game?</h4>
+                <label>
+                    <input class="a2" type="radio" name="a2" value="inc"/> Call of Juarez
+                    <input class="a2" type="radio" name="a2" value="cor"/> Red Dead Redemption
+                    <input class="a2" type="radio" name="a2" value="inc"/> Red Dead Revolver
+                    <input class="a2" type="radio" name="a2" value="inc"/> Gun
+                    <input class="a2" type="radio" name="a2" value="inc"/> Borderlands
+                </label>
+            </div>
+            <div class="col-12">
+                <h4 class="q3">Which of these westerns did NOT star John Wayne?</h4>
+                <label>
+                    <input class="a3" type="radio" name="a3" value="inc"/> Stagecoach
+                    <input class="a3" type="radio" name="a3" value="inc"/> The Searchers
+                    <input class="a3" type="radio" name="a3" value="cor"/> Once Upon A Time in the West
+                    <input class="a3" type="radio" name="a3" value="inc"/> Rio Bravo
+                    <input class="a3" type="radio" name="a3" value="inc"/> El Dorado
+                </label>
+            </div>
+            <div class="col-12">
+                <h4 class="q4">Which sci-fi film series was heavily influenced by Western themes?</h4>
+                <label>
+                    <input class="a4" type="radio" name="a4" value="cor"/> Star Wars
+                    <input class="a4" type="radio" name="a4" value="inc"/> Star Trek
+                    <input class="a4" type="radio" name="a4" value="inc"/> The Matrix
+                    <input class="a4" type="radio" name="a4" value="inc"/> Dune
+                    <input class="a4" type="radio" name="a4" value="inc"/> The Hunger Games
+                </label>
+            </div>
+            <div class="col-12">
+                <h4 class="q5">Which of the following "spaghetti" westerns was NOT directed by Sergio Leone?</h4>
+                <label>
+                    <input class="a5" type="radio" name="a5" value="inc"/> Once Upon a Time in the West
+                    <input class="a5" type="radio" name="a5" value="inc"/> A Fistful of Dollars
+                    <input class="a5" type="radio" name="a5" value="inc"/> The Good, the Bad and the Ugly
+                    <input class="a5" type="radio" name="a5" value="inc"/> My Name is Nobody
+                    <input class="a5" type="radio" name="a5" value="cor"/> Arizona Colt
+                </label>
+            </div>  
+            <div class="col-12">
+                <h4 class="q6">Which of these movies is NOT a remake or rework of classic Westerns?</h4>
+                <label>
+                    <input class="a6" type="radio" name="a6" value="inc"/> True Grit
+                    <input class="a6" type="radio" name="a6" value="inc"/> 3:10 to Yuma
+                    <input class="a6" type="radio" name="a6" value="inc"/> Magnificent Seven
+                    <input class="a6" type="radio" name="a6" value="inc"/> Django Unchained
+                    <input class="a6" type="radio" name="a6" value="cor"/> The Assassination of Jesse James by the Coward Robert Ford
+                </label>
+            </div>  
+            <div class="col-12">
+                <h4 class="q7">In "The Hategul Eight", who was Major Warren's "pen pal" during the Civil War?</h4>
+                <label>
+                    <input class="a7" type="radio" name="a7" value="cor"/> Abraham Lincoln
+                    <input class="a7" type="radio" name="a7" value="inc"/> Frederick Douglas
+                    <input class="a7" type="radio" name="a7" value="inc"/> Ulysses S. Grant
+                    <input class="a7" type="radio" name="a7" value="inc"/> Stonewall Jackson
+                    <input class="a7" type="radio" name="a7" value="inc"/> Clint Eastwood
+                </label>
+            </div>  
+            <div class="col-12" id="lq">
+                <h4 class="q8">What is the name of Mario Van Peebles western about African-American soldiers? </h4>
+                <label>
+                    <input class="a8" type="radio" name="a8" value="inc"/> Unforgiven
+                    <input class="a8" type="radio" name="a8" value="cor"/> Posse
+                    <input class="a8" type="radio" name="a8" value="inc"/> Blazing Saddles
+                    <input class="a8" type="radio" name="a8" value="inc"/> Sons of Anarchy
+                    <input class="a8" type="radio" name="a8" value="inc"/> The Outlaw Johnny Black
+                </label>
+            </div>
+            <button class = "col-2" id="done">
+                Done
+            </button>                           
+        </div>
+        <div class="container" class="start">
+            <button id="start">
+                Start
+            </button>
+        </div>
+
+        <div class="row" id="score">
+            
+        </div>
+    </div>    
+    <script
+    src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8="
+    crossorigin="anonymous"></script>
+
+        <script src="assets/javascript/app.js"></script>
+    </div>
+</body>
+</html>

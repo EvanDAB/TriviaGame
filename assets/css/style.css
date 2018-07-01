@@ -1,0 +1,81 @@
+body {
+    background-image:url('https://slotopaint.com/wp-content/uploads/2017/01/Western_Background_day.jpg');
+}
+#hidden, #hidden1 {
+    display: inline;
+}
+
+.col-12 {
+    border: 10px solid lightskyblue;
+    border-bottom: 0px;
+    background-color: white;
+    margin: 0 auto;
+}
+#lq {
+    border-bottom: 10px solid lightskyblue;
+}
+
+#done {
+    color: black;
+    background-color: tan;
+    border: 5px solid brown;
+    margin: 5px auto;
+    text-align: center;
+    left: 41.5%;
+}
+
+.timer {
+    margin: 10px auto;
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+label, input {
+    display: block;
+    text-align: center;
+    margin: 5px auto;
+    color: brown;
+}
+
+h4{
+    text-align: center;
+    margin: 5px auto;
+    color: black;
+}
+
+#title {
+    text-align: center;
+    margin: 5px auto;
+    font-size: 50px;
+    color: brown;
+    font-family: 'Press Start 2P', cursive;
+}
+#start {
+    margin: 0 auto;
+    text-align: center;
+    margin-top: 10%;
+    width: 40%;
+    height: 20%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding: 10%;
+    font-size: 40px;
+    font-family: 'Press Start 2P', cursive;
+    background-color: lightskyblue;
+    color: tan;
+    text-decoration: underline;
+    border: 5px solid tan;
+    font-size: 35px;
+    
+}
+
+#score {
+    margin: 0 auto;
+    text-align: center;
+    width: 40%;
+    padding: 10%;
+    color:brown;
+    background-color: white
+}
+
